@@ -14,6 +14,7 @@ class ViewController: UIViewController, UITextFieldDelegate, UIImagePickerContro
     @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var mealNameLabel: UILabel!
     @IBOutlet weak var photoImageView: UIImageView!
+    @IBOutlet weak var ratingControl: RatingCongrol!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,10 +27,6 @@ class ViewController: UIViewController, UITextFieldDelegate, UIImagePickerContro
         // Hide the keyboard.
         nameTextField.resignFirstResponder()
         return true
-    }
-    
-    func textFieldDidEndEditing(_ textField: UITextField) {
-        mealNameLabel.text = nameTextField.text
     }
     
     override func didReceiveMemoryWarning() {
