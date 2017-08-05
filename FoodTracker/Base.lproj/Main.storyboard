@@ -61,7 +61,7 @@
                                 </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="mj5-R6-tfe" customClass="RatingCongrol" customModule="FoodTracker">
-                                <rect key="frame" x="35" y="464" width="305" height="50"/>
+                                <rect key="frame" x="35" y="464" width="310" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="starCount">
