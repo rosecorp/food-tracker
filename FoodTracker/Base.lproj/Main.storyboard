@@ -60,8 +60,8 @@
                                     <constraint firstAttribute="trailing" secondItem="jc9-zJ-BI6" secondAttribute="trailing" id="n13-Xi-1CI"/>
                                 </constraints>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mj5-R6-tfe" customClass="RatingCongrol" customModule="FoodTracker">
-                                <rect key="frame" x="16" y="452" width="200" height="110"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="mj5-R6-tfe" customClass="RatingCongrol" customModule="FoodTracker">
+                                <rect key="frame" x="16" y="452" width="250" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </stackView>
                         </subviews>
@@ -85,7 +85,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="479" y="-214"/>
+            <point key="canvasLocation" x="477.60000000000002" y="-214.54272863568218"/>
         </scene>
     </scenes>
     <resources>
